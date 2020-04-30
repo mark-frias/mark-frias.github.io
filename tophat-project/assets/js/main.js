@@ -74,10 +74,11 @@ $(function () {
         dots: true,
         speed: 800,
         arrows: false,
-        centerMode: true,
+        centerMode: false,
         centerPadding: "0",
-        slidesToShow: 3,
-        slidesToScroll: 4,
+        slidesToShow: 4,
+        infinite: false,
+        slidesToScroll: 1,
         responsive: [
             {
                 breakpoint: 1200,
@@ -88,14 +89,14 @@ $(function () {
             {
                 breakpoint: 992,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 3,
                     centerMode: false,
                 }
             },
             {
                 breakpoint: 768,
                 settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 2,
                 }
             },
             {
